@@ -1,4 +1,5 @@
 FROM nvcr.io/nvidia/pytorch:24.02-py3
+# FROM 763104351884.dkr.ecr.us-east-1.amazonaws.com/pytorch-training:2.5.1-cpu-py311-ubuntu22.04-ec2
 
 ENV DEBIAN_FRONTEND="noninteractive" \
     MAX_JOBS=8

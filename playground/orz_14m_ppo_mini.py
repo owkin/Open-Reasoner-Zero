@@ -103,7 +103,7 @@ class PPOExpConfig(BasePPOExpConfig):
     zero_stage: int = 3
 
     # path related settings
-    pretrain: Optional[str] = "EleutherAI/pythia-14m" # TODO: or put your downloaded model path here!
+    pretrain: Optional[str] = "/home/sagemaker-user/custom-file-systems/efs/fs-09913c1f7db79b6fd/llms/pythia-14m" # TODO: or put your downloaded model path here!
     reward_pretrain: Optional[str] = None
     save_interval: int = 50
     ckpt_path: str = f"orz_ckpt/{file_name}"
